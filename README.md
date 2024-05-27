@@ -1,2 +1,126 @@
-# pokemon-center
- An interactive pokecenter with the pokedex (incoming)
+# Pokémon Center 3D
+
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![License](https://img.shields.io/github/license/yourusername/pokemon-center-3d?style=for-the-badge)
+
+<img src="public/assets/banner.png" alt="Pokémon Center 3D Banner" width="100%">
+
+## Description
+
+Explore a 3D Pokémon Center and view a Pokédex with interactive elements using Three.js and React. Walk around the Pokémon Center and discover your favorite Pokémon in an immersive 3D environment.
+
+## Features
+
+- **3D Navigation**: Walk around a 3D Pokémon Center.
+- **Pokédex**: Access a list of Pokémon and view details for each one.
+- **Interactive Camera**: Orbit, zoom, and pan the camera to explore the environment.
+
+## Screenshots
+
+![Screenshot1](public/assets/screenshot1.png)
+![Screenshot2](public/assets/screenshot2.png)
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (>= 14.x)
+- [npm](https://www.npmjs.com/) (>= 6.x)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/benjii66/pokemon-center.git
+   cd pokemon-center
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+- Use the 'W', 'A', 'S', 'D' keys to move around (or 'Z', 'Q', 'S', 'D' for AZERTY keyboards)
+- Use the mouse left-click to orbit and zoom the camera
+
+## Project Structure
+
+pokemon-center-3d/
+├── public/
+│ ├── models/
+│ │ ├── pokecenter/
+│ │ │ └── pokemon_center_emerald.glb
+│ │ └── Pikachu/
+│ │ └── pikachu.glb
+│ └── assets/
+│ ├── banner.png
+│ └── screenshot1.png
+│ └── screenshot2.png
+├── src/
+│ ├── components/
+│ │ ├── PokemonCenter_shadow.js
+│ │ └── Pikachu.js
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+## TODO
+
+- [ ] **Add collision detection**: Prevent the character from passing through furniture and walls.
+- [ ] **Add animations**: Implement walking, running, and idle animations for the character.
+- [ ] **Add interaction with objects**: Enable interaction with objects such as opening a Pokedex.
+- [ ] **Expand the environment**: Add more rooms and areas to explore.
+- [ ] **Enhance lighting and shadows**: Improve the lighting for a more realistic look.
+- [ ] **Optimize performance**: Ensure smooth performance across different devices.
+
+### Detailed TODO List
+
+- **Add collision detection**
+  - Implement collision detection to prevent the character from walking through walls and furniture.
+  - Ensure smooth navigation around obstacles.
+
+- **Add animations**
+  - Integrate character animations such as walking, touch, and idle states.
+  - Use animation blending for smoother transitions.
+
+- **Add interaction with objects**
+  - Enable character interaction with objects (e.g., open a Pokedex, sit on chairs).
+  - Create a user interface for interactive objects.
+
+- **Optimize performance**
+  - Optimize 3D models and textures for better performance.
+  - Ensure smooth gameplay with keyboard and controller (why not mobile ?).
+
+
+## Contributing
+
+Contributions are welcome! Please follow these steps: 
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
+
+## Licence
+This project is licensed under the MIT License - see the License file for details
+
+## Acknowledgements
+- Model by [Alberto Luviano](https://sketchfab.com/AlbertoLuviano) - [License](https://creativecommons.org/licenses/by-sa/4.0/)
+- Built with [Three.js](https://threejs.org/) and [React](https://react.dev/)
+
+## Contact
+- Github: [benjii66](https://github.com/benjii66)
+- LinkedIn: [benjaminS](www.linkedin.com/in/benjamiinsimon)

@@ -54,7 +54,7 @@ Make sure you have the following installed:
 - Use the mouse left-click to orbit and zoom the camera
 
 ## Project Structure
-
+```bash
 pokemon-center-3d/
 ├── public/
 │ ├── models/
@@ -75,6 +75,7 @@ pokemon-center-3d/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ## TODO
 

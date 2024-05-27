@@ -54,27 +54,48 @@ Make sure you have the following installed:
 - Use the mouse left-click to orbit and zoom the camera
 
 ## Project Structure
+
 ```bash
-pokemon-center-3d/
+POKEMON-CENTER/
+├── node_modules/
 ├── public/
-│ ├── models/
-│ │ ├── pokecenter/
-│ │ │ └── pokemon_center_emerald.glb
-│ │ └── Pikachu/
-│ │ └── pikachu.glb
-│ └── assets/
-│ ├── banner.png
-│ └── screenshot1.png
-│ └── screenshot2.png
+│   ├── assets/
+│   ├── models/
+│   │   ├── Pikachu/
+│   │   │   ├── animations/
+│   │   │   ├── source/
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── pikachu.glb
+│   │   │   │   │   ├── PikachuM.FBX
+│   │   │   │   │   └── PikachuM.gltf
+│   │   ├── textures/
+│   │   ├── pokecenter/
+│   │   │   └── pokemon_center_emerald.glb
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
-│ ├── components/
-│ │ ├── PokemonCenter_shadow.js
-│ │ └── Pikachu.js
-│ ├── App.js
-│ └── index.js
+│   ├── components/
+│   │   ├── credit.js
+│   │   ├── Pikachu.js
+│   │   ├── PokemonCenter_shadow.js
+│   │   └── PokemonCenter.js
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitattributes
 ├── .gitignore
-├── package.json
-└── README.md
+├── license.md
+├── package-lock.json
+└── package.json
 ```
 
 ## TODO
@@ -89,14 +110,17 @@ pokemon-center-3d/
 ### Detailed TODO List
 
 - **Add collision detection**
+
   - Implement collision detection to prevent the character from walking through walls and furniture.
   - Ensure smooth navigation around obstacles.
 
 - **Add animations**
+
   - Integrate character animations such as walking, touch, and idle states.
   - Use animation blending for smoother transitions.
 
 - **Add interaction with objects**
+
   - Enable character interaction with objects (e.g., open a Pokedex, sit on chairs).
   - Create a user interface for interactive objects.
 
@@ -104,10 +128,9 @@ pokemon-center-3d/
   - Optimize 3D models and textures for better performance.
   - Ensure smooth gameplay with keyboard and controller (why not mobile ?).
 
-
 ## Contributing
 
-Contributions are welcome! Please follow these steps: 
+Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
@@ -116,12 +139,15 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request.
 
 ## Licence
+
 This project is licensed under the MIT License - see the License file for details
 
 ## Acknowledgements
+
 - Model by [Alberto Luviano](https://sketchfab.com/AlbertoLuviano) - [License](https://creativecommons.org/licenses/by-sa/4.0/)
 - Built with [Three.js](https://threejs.org/) and [React](https://react.dev/)
 
 ## Contact
+
 - Github: [benjii66](https://github.com/benjii66)
 - LinkedIn: [benjaminS](www.linkedin.com/in/benjamiinsimon)

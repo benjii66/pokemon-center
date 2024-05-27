@@ -2,7 +2,7 @@
 
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![License](https://img.shields.io/github/license/yourusername/pokemon-center-3d?style=for-the-badge)
+![License](https://img.shields.io/github/license/benjii66/pokemon-center-3d?style=for-the-badge)
 
 <img src="public/assets/banner.png" alt="Pokémon Center 3D Banner" width="100%">
 

@@ -6,7 +6,7 @@
 
 ## Description
 
-Explore a 3D Pokemon Center and view a Pokedex with interactive elements using Three.js and React. Walk around the Pokemon Center and discover your favorite Pokemon in an immersive 3D environment.
+Explore a 3D Pokemon Center and view a Pokedex with interactive elements using Three.js and React. Walk around the Pokemon Center and discover your favorite Pokemon in a 3D environment.
 
 ## Features
 

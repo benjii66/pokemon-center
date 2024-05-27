@@ -4,8 +4,6 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![License](https://img.shields.io/github/license/benjii66/pokemon-center?style=for-the-badge)
 
-<img src="public/assets/banner.png" alt="Pokémon Center 3D Banner" width="100%">
-
 ## Description
 
 Explore a 3D Pokemon Center and view a Pokedex with interactive elements using Three.js and React. Walk around the Pokemon Center and discover your favorite Pokemon in an immersive 3D environment.

@@ -60,13 +60,17 @@ export default function PlayerController({ controls, group }) {
     useFrame((state, delta) => {
         const speed = 2;
         if (group.current) {
-            if (moveDirection.forward) group.current.position.z -= speed * delta;
-            if (moveDirection.backward) group.current.position.z += speed * delta;
-            if (moveDirection.left) group.current.position.x -= speed * delta;
-            if (moveDirection.right) group.current.position.x += speed * delta;
+            const translation = group.current.translation();
+
+            if (moveDirection.forward) translation.z -= speed * delta;
+            if (moveDirection.backward) translation.z += speed * delta;
+            if (moveDirection.left) translation.x -= speed * delta;
+            if (moveDirection.right) translation.x += speed * delta;
+
+            group.current.setTranslation(translation, true);
 
             if (controls && controls.current) {
-                controls.current.target.copy(group.current.position);
+                controls.current.target.copy(translation);
                 controls.current.update();
             }
         }
